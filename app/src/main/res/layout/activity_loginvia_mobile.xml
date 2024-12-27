@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="#720000"
+            android:text="LOG-IN"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#720000"
+            android:text="Mobile Number"
+            android:textStyle="bold"
+            android:layout_marginLeft="10sp"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_textbox"
+            android:hint=""
+            android:textSize="25dp"
+            android:padding="15dp"
+            android:textColorHint="#000000"/>
+
+        <Button
+            android:id="@+id/btnSendOtp"
+            android:layout_width="350sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            android:backgroundTint="#720000"
+            android:textSize="20sp"
+            android:contentDescription="Send OTP"
+            android:text="Send" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:visibility="gone"
+           >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="start"
+                   android:layout_margin="20dp"
+                   android:text="00:00"
+                   android:textColor="#3066be"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:padding="12dp"
+                   android:contentDescription="Guest Login"
+                   android:importantForAccessibility="yes"
+                   android:id="@+id/tvGuestLogin"
+                   />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="20dp"
+            android:text="Resend"
+            android:textColor="#3066be"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:importantForAccessibility="yes"
+            android:id="@+id/tvResendOtp"
+            />
+       </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

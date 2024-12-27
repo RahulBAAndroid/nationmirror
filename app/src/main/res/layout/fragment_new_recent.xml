@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+    <!-- Header text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginLeft="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News from all over Madhya Pradesh"
+        android:textSize="17sp"
+        android:layout_marginLeft="16sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Search bar -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:hint="Search"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:background="@drawable/custom_textbox"
+        android:drawableLeft="@drawable/iconssearch"
+        android:padding="10dp"
+        android:id="@+id/txtSarch"
+        />
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- Categories List -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Sports -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnSport">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ball"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtSportsNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="खेल"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+    android:layout_width="match_parent"
+    android:layout_height="2sp"
+    android:background="#4E4E4E"/>
+        <!-- Entertainment -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnEntertenment">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/movie"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtEntertenmntNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="एंटरटेनमेंट"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="#4E4E4E"/>
+        <!-- Business -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnBusiness">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/corporateculture"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtBusinessNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="फाइनेंस"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="#4E4E4E"/>
+        <!-- Health -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnAstro">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/aries"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtAstro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="सनातन"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="#4E4E4E"/>
+        <!-- Global -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnGlobal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/globalsolution"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtGlobalNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="देश-विदेश"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="#4E4E4E"/>
+        <!-- Mp -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnMP">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/globalsolution"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtMP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="मध्ययप्रदेश"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="#4E4E4E"/>
+        <!-- cg -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btncg">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/globalsolution"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtcg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="छत्तीसगढ़"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="#4E4E4E"/>
+        <!-- up -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnUP">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/globalsolution"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtUP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="उतर प्रदेश"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="#4E4E4E"/>
+        <!-- Crime -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnCrime">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/globalsolution"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtCrime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="जुर्म गाथा"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="#4E4E4E"/>
+        <!-- Infotenment -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/btnInfotenment">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/globalsolution"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/txtInfotenment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="इंफोटेनमेंट"
+                android:textColor="#DC143C"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

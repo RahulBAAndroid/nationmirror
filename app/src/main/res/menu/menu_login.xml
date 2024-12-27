@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/whatsapp"
+        android:title="Whatsapp"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_whatsapp"
+        />
+    <item
+        android:id="@+id/instagram"
+        android:title="Instagram"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/twitter"
+        android:title="X"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/telegram"
+        android:title="Telegrams"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

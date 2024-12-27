@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "826695608109",
+    "firebase_url": "https://newsapp-b4d0f-default-rtdb.firebaseio.com",
+    "project_id": "newsapp-b4d0f",
+    "storage_bucket": "newsapp-b4d0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826695608109:android:acc5d304793e19db5d15a4",
+        "android_client_info": {
+          "package_name": "com.netlink.newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVfuXs-u6_st-mVvnducfPy_yk7Yvrl98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826695608109:android:24d37d98bfabd4985d15a4",
+        "android_client_info": {
+          "package_name": "com.netlink.newsapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVfuXs-u6_st-mVvnducfPy_yk7Yvrl98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
